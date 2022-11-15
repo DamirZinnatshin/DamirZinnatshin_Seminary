@@ -86,13 +86,30 @@ int x = 6;
 // Console.WriteLine ("Квадрат вашего числа: " + square);
 
 // Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
-Console.WriteLine ("Введите исходное число");
-string text = Console.ReadLine();
-Console.WriteLine ();
-int number = int.Parse (text);
-int negative_number = -1 * number;
-while (negative_number <= number)
-{
-    Console.WriteLine (negative_number);
-    negative_number++;
-}
+// Console.WriteLine ("Введите исходное число");
+// string text = Console.ReadLine();
+// Console.WriteLine ();
+// int number = int.Parse (text);
+// int negative_number = -1 * number;
+// while (negative_number <= number)
+// {
+//     Console.WriteLine (negative_number);
+//     negative_number++;
+// }
+
+// Напишите программу, которая принимает на вход два числа и проверяет, является ли первое число квадратом второго
+// Console.WriteLine ("Введите первое число");
+// string str1 = Console.ReadLine();
+// Console.WriteLine ("Введите второе число");
+// string str2 = Console.ReadLine();
+// int A = int.Parse(str1);
+// int B = int.Parse(str2);
+// if (A/B == B)
+// {
+//     Console.WriteLine ("Первое число является квадратом второго");
+// }
+// else
+// {
+//     Console.WriteLine ("Первое число НЕ является квадратом второго");
+// }
+
