@@ -78,8 +78,21 @@ int x = 6;
 // int absNum = Math.Abs(num); // Модуль числа 
 // Console.WriteLine(absNum);
 
-Console.WriteLine ("Введите число, чтобы мы возвели его в квадрат");
-string str = Console.ReadLine();
-int number = int.Parse (str);
-int square = number * number;
-Console.WriteLine ("Квадрат вашего числа: " + square);
+// Вычислить квадрат числа
+// Console.WriteLine ("Введите число, чтобы мы возвели его в квадрат");
+// string str = Console.ReadLine();
+// int number = int.Parse (str);
+// int square = number * number;
+// Console.WriteLine ("Квадрат вашего числа: " + square);
+
+// Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+Console.WriteLine ("Введите исходное число");
+string text = Console.ReadLine();
+Console.WriteLine ();
+int number = int.Parse (text);
+int negative_number = -1 * number;
+while (negative_number <= number)
+{
+    Console.WriteLine (negative_number);
+    negative_number++;
+}
